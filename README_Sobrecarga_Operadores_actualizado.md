@@ -1,7 +1,5 @@
 # Sobrecarga de Operadores en C++
 
-## Propósito del recurso
-
 Este repositorio es una guía práctica para comprender y aplicar la **sobrecarga de operadores en C++** como una herramienta de diseño orientado a objetos.
 
 La sobrecarga de operadores permite que objetos creados por el programador puedan usar operadores conocidos del lenguaje, como `+`, `==`, `<<`, `++` o `=`, de una forma natural, legible y coherente con el significado del objeto.
@@ -105,7 +103,7 @@ Un operador sobrecargado debe hacer que el código sea más claro, no más miste
 
 ---
 
-# Niveles de aprendizaje
+# Casos de uso:
 
 ---
 
@@ -183,7 +181,7 @@ Por eso, la sobrecarga del operador `+` debe construir y devolver un nuevo objet
 
 ---
 
-### Casos de uso
+### Ejemplos de aplicación
 
 La sobrecarga de operadores binarios es útil cuando la clase representa elementos que pueden combinarse naturalmente:
 
@@ -296,7 +294,7 @@ La comparación depende del criterio de identidad del objeto.
 
 ---
 
-### Casos de uso
+### Ejemplos de Aplicación
 
 La sobrecarga de operadores de comparación se usa para:
 
@@ -398,7 +396,7 @@ Cada llamada devuelve el flujo para que la siguiente operación pueda continuar.
 
 ---
 
-### Casos de uso
+### Ejemplos de Aplicación
 
 Este operador es útil para:
 
@@ -498,7 +496,7 @@ El parámetro `int` no se usa como valor real. Sirve para que C++ distinga el po
 
 ---
 
-### Casos de uso
+### Ejemplos de Aplicación
 
 Los operadores unarios son útiles para:
 
@@ -631,7 +629,7 @@ Cada objeto tiene su propia copia independiente de los datos.
 
 ---
 
-### Casos de uso
+### Ejemplos de Aplicación
 
 La sobrecarga del operador de asignación es fundamental en clases que manejan:
 
@@ -769,7 +767,7 @@ En diseño profesional, muchas veces es más seguro usar conversiones explícita
 
 ---
 
-### Casos de uso
+### Ejemplos de Aplicación
 
 Los operadores de conversión son útiles cuando:
 
